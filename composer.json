@@ -1,0 +1,20 @@
+{
+    "name": "daylerees/container-example",
+    "description": "An example of how to create a dependency-resolution-enabled IoC Container.",
+    "type": "example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dayle Rees",
+            "email": "me@daylerees.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src"
+        }
+    }
+}
